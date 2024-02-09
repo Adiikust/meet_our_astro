@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:meet_our_astrologer/Home/home_screen.dart';
+import 'package:meet_our_astrologer/Meet_Astrologer/meet_astrologer.dart';
 
 void main() {
   runApp(const MyApp());
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
               textTheme:
                   GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
             ),
-            home: const HomeScreen(),
+            home: const MeetAstrologersScreen(),
           );
         });
   }
